@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battleship Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="game-layout">   
+    <header>
+      <h1>Let's Play <strong>Battleship!</strong></h1>
+    </header>
+    <main>
+      <section class="top-bar">
+        <h2 class="top-message"></h2>
+      </section>
+      <section class="middle-section">
+        <div class="game-board"></div>
+        <div class="side-bar">
+          <div class="button-div"><button class="start-button">>> START GAME <<</button></div>
+          <div class="instructions">
+            <strong class="side-bar-bold">Instructions:</strong><br />
+            Click an empty square and try to sink all 5 of your opponent's ships
+            in the least amount of turns as possible.
+          </div>
+          <div class="ships">
+            <strong class="side-bar-bold">Opponent's Ships:</strong>
+            <ul>
+                <li><strong>Carrier</strong>: 5 squares</li>
+                <li><strong>Battleship</strong>: 4 squares</li>
+                <li><strong>Destroyer</strong>: 3 squares</li>
+                <li><strong>Submarine</strong>: 3 squares</li>
+                <li><strong>Patrol Boat</strong>: 2 squares</li>
+            </ul>
+          </div>
+          <div class="refresh-message"></div>
+        </div>
+      </section>
+      <section class="bottom-bar">
+          <h2 class="bottom-message"></h2>
+      </section>
+    </main>
+  </section>
+  <footer>
+    CST336 CSUMB - Copyright &copy; Juli S.<br />
+    <strong>Disclaimer</strong>: This website is part of an academic assignment.<br />
+    Best viewed on a laptop or larger screen.<br />
+    Warship original image from <a class="source-link" href="https://wallpaperaccess.com/battleship" alt="ship image source">Wallpaper access</a>.<br /><br />
+    <img class="footer-logo" src="img/csumblogo.png" alt="CSUMB logo">
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

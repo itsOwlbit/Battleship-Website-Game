@@ -1,0 +1,188 @@
+body {
+  color: #515358;
+  background-color: #848484;
+  font-family: 'Roboto', sans-serif;
+  margin: 40px auto;
+  width: 800px;
+}
+
+h1 {
+  color: #ececec;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+footer {
+  font-size: .8em;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.game-layout {
+  background-color:#2d3341;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.top-bar, .bottom-bar {
+  background-color:#515358;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 50px;
+  margin: 10px 6px;
+  text-align: center;
+}
+
+.top-bar {
+  margin-bottom: 20px;
+}
+
+.bottom-bar {
+  margin-top: 20px;
+}
+
+.top-message, .bottom-message {
+  color:#f5d463;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.middle-section {
+  display: grid;
+  grid-template-columns: auto 240px;
+  justify-content: space-around;
+}
+
+.game-board {
+  background-color: #3d597b;
+  border-radius: 5px;
+  width: 500px;
+
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  justify-content: space-around;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.square {
+  background-color: #6385a8;
+  border: 1px #515358 solid;
+  border-radius: 5px;
+  color: #d6d6d6;
+  height: 40px;
+  width: 40px;
+  justify-self: center;
+}
+
+.ship-img {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.side-bar {
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button-div {
+  text-align: center;
+  padding: 6px 0;
+}
+
+.start-button {
+  background-color: #f5d463;
+  border: 2px #515358 solid;
+  border-radius: 10px;
+  color: #b16532;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 6px;
+  transition: all .25s;
+}
+
+.start-button:hover {
+  background-color: #f9e5a1;
+  color: #c4601d;
+}
+
+.quit-button {
+  background-color: #3d597b;
+  border: 2px #515358 solid;
+  border-radius: 10px;
+  color: #ececec;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 6px 10px;
+  transition: all .25s;
+}
+
+.quit-button:hover {
+  background-color: #ececec;
+  color: #c4601d;
+}
+
+.end-button {
+  background-color: #3d597b;
+  border: 2px #515358 solid;
+  border-radius: 10px;
+  color: #ececec;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 6px 10px;
+}
+
+.instructions, .ships, .refresh-message {
+  line-height: 1.5em;
+  margin-top: 12px;
+}
+
+.side-bar-bold {
+  color: #3d597b;
+  font-size: 1.2em;
+}
+
+.refresh-message {
+  color: #c4601d;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.hit {
+  background-color: #f5d463;
+  color: #515358;
+  font-style: bolder;
+  font-size: 1.2em;
+}
+
+.miss {
+  color: #ececec;
+  background-color: #3d597b;
+  border: 0;
+  font-style: bolder;
+  font-size: 1.2em;
+}
+
+.source-link {
+  color: #bbb5b5;
+  text-decoration: none;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+}
